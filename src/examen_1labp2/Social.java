@@ -32,11 +32,6 @@ public class Social extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        CuentaS = new javax.swing.JButton();
-        AmigosS = new javax.swing.JButton();
-        PostS = new javax.swing.JButton();
-        CommentS = new javax.swing.JButton();
-        FormS = new javax.swing.JButton();
         Pagregarpost = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         Searchusername = new javax.swing.JTextField();
@@ -45,9 +40,7 @@ public class Social extends javax.swing.JFrame {
         agregaramigo = new javax.swing.JButton();
         PagregarCuenta = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        Lablel2 = new javax.swing.JLabel();
         Username = new javax.swing.JTextField();
-        Password = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         TipoRed = new javax.swing.JComboBox<>();
         agregarcuenta = new javax.swing.JButton();
@@ -70,45 +63,22 @@ public class Social extends javax.swing.JFrame {
         SearchIDpost = new javax.swing.JTextField();
         Comentario = new javax.swing.JTextField();
         agregarcomentario = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        CuentaS = new javax.swing.JButton();
+        AmigosS = new javax.swing.JButton();
+        PostS = new javax.swing.JButton();
+        CommentS = new javax.swing.JButton();
+        FormS = new javax.swing.JButton();
+        panel = new javax.swing.JPanel();
+        FACEBOOK = new javax.swing.JLabel();
+        FACEBOOK2 = new javax.swing.JLabel();
+        FACEBOOK1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
+        setPreferredSize(new java.awt.Dimension(500, 339));
 
-        CuentaS.setText("Agregar Cuenta");
-        CuentaS.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CuentaSActionPerformed(evt);
-            }
-        });
-
-        AmigosS.setText("Agregar Amigo");
-        AmigosS.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AmigosSActionPerformed(evt);
-            }
-        });
-
-        PostS.setText("Agregar Post ");
-        PostS.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PostSActionPerformed(evt);
-            }
-        });
-
-        CommentS.setText("Agregar Comment");
-        CommentS.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CommentSActionPerformed(evt);
-            }
-        });
-
-        FormS.setText("Profile Form");
-        FormS.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                FormSActionPerformed(evt);
-            }
-        });
-
-        Pagregarpost.setBackground(new java.awt.Color(102, 102, 102));
+        Pagregarpost.setPreferredSize(new java.awt.Dimension(306, 231));
 
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("User Name");
@@ -151,7 +121,7 @@ public class Social extends javax.swing.JFrame {
                     .addGroup(PagregarpostLayout.createSequentialGroup()
                         .addGap(71, 71, 71)
                         .addComponent(agregaramigo)))
-                .addContainerGap(90, Short.MAX_VALUE))
+                .addContainerGap(152, Short.MAX_VALUE))
         );
         PagregarpostLayout.setVerticalGroup(
             PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -169,17 +139,12 @@ public class Social extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        PagregarCuenta.setBackground(new java.awt.Color(204, 204, 204));
+        PagregarCuenta.setPreferredSize(new java.awt.Dimension(306, 231));
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("User Name");
 
-        Lablel2.setForeground(new java.awt.Color(255, 255, 255));
-        Lablel2.setText("Password");
-
         Username.setText("User1");
-
-        Password.setText("admin");
 
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Social");
@@ -201,15 +166,13 @@ public class Social extends javax.swing.JFrame {
                 .addGap(20, 20, 20)
                 .addGroup(PagregarCuentaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 63, Short.MAX_VALUE)
-                    .addComponent(Lablel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(PagregarCuentaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(TipoRed, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Password, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Username, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(agregarcuenta))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap(114, Short.MAX_VALUE))
         );
         PagregarCuentaLayout.setVerticalGroup(
             PagregarCuentaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -218,20 +181,16 @@ public class Social extends javax.swing.JFrame {
                 .addGroup(PagregarCuentaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(Username, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PagregarCuentaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Lablel2)
-                    .addComponent(Password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(PagregarCuentaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
                     .addComponent(TipoRed, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(agregarcuenta)
-                .addContainerGap(85, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Pagregaramigo.setBackground(new java.awt.Color(153, 153, 153));
+        Pagregaramigo.setPreferredSize(new java.awt.Dimension(306, 231));
 
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("User Name");
@@ -269,7 +228,7 @@ public class Social extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Searchusernamecoment, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(93, Short.MAX_VALUE))))
+                        .addContainerGap(155, Short.MAX_VALUE))))
         );
         PagregaramigoLayout.setVerticalGroup(
             PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -287,7 +246,7 @@ public class Social extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        Pprofile.setBackground(java.awt.SystemColor.controlDkShadow);
+        Pprofile.setPreferredSize(new java.awt.Dimension(306, 231));
 
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("User Name");
@@ -312,7 +271,7 @@ public class Social extends javax.swing.JFrame {
             .addGroup(PprofileLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(PprofileLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 294, Short.MAX_VALUE)
                     .addGroup(PprofileLayout.createSequentialGroup()
                         .addComponent(jLabel7)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -337,7 +296,7 @@ public class Social extends javax.swing.JFrame {
                 .addGap(14, 14, 14))
         );
 
-        Pagregarcomment.setBackground(new java.awt.Color(51, 51, 51));
+        Pagregarcomment.setPreferredSize(new java.awt.Dimension(306, 231));
 
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("User Name");
@@ -379,7 +338,7 @@ public class Social extends javax.swing.JFrame {
                             .addGroup(PagregarcommentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(SearchIDpost, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(SearchProfilepost, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(89, Short.MAX_VALUE))
+                .addContainerGap(155, Short.MAX_VALUE))
         );
         PagregarcommentLayout.setVerticalGroup(
             PagregarcommentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -396,7 +355,117 @@ public class Social extends javax.swing.JFrame {
                 .addComponent(Comentario, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(agregarcomentario)
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+
+        CuentaS.setText("Agregar Cuenta");
+        CuentaS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CuentaSActionPerformed(evt);
+            }
+        });
+
+        AmigosS.setText("Agregar Amigo");
+        AmigosS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AmigosSActionPerformed(evt);
+            }
+        });
+
+        PostS.setText("Agregar Post ");
+        PostS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PostSActionPerformed(evt);
+            }
+        });
+
+        CommentS.setText("Agregar Comment");
+        CommentS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CommentSActionPerformed(evt);
+            }
+        });
+
+        FormS.setText("Profile Form");
+        FormS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                FormSActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(CommentS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(FormS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PostS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(AmigosS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(CuentaS, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(44, 44, 44)
+                .addComponent(CuentaS)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(AmigosS)
+                .addGap(18, 18, 18)
+                .addComponent(PostS)
+                .addGap(18, 18, 18)
+                .addComponent(CommentS)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(FormS)
+                .addContainerGap(100, Short.MAX_VALUE))
+        );
+
+        panel.setBackground(new java.awt.Color(255, 255, 255));
+
+        FACEBOOK.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        FACEBOOK.setForeground(new java.awt.Color(0, 0, 204));
+        FACEBOOK.setText("FACEBOOK");
+
+        FACEBOOK2.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        FACEBOOK2.setForeground(new java.awt.Color(51, 204, 255));
+        FACEBOOK2.setText("TWITTER");
+
+        FACEBOOK1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        FACEBOOK1.setForeground(new java.awt.Color(0, 0, 0));
+        FACEBOOK1.setText("x");
+
+        javax.swing.GroupLayout panelLayout = new javax.swing.GroupLayout(panel);
+        panel.setLayout(panelLayout);
+        panelLayout.setHorizontalGroup(
+            panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelLayout.createSequentialGroup()
+                .addContainerGap(51, Short.MAX_VALUE)
+                .addGroup(panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelLayout.createSequentialGroup()
+                        .addComponent(FACEBOOK, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(44, 44, 44))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelLayout.createSequentialGroup()
+                        .addComponent(FACEBOOK2, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(31, 31, 31))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelLayout.createSequentialGroup()
+                        .addComponent(FACEBOOK1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(132, 132, 132))))
+        );
+        panelLayout.setVerticalGroup(
+            panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelLayout.createSequentialGroup()
+                .addGap(96, 96, 96)
+                .addComponent(FACEBOOK, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(4, 4, 4)
+                .addComponent(FACEBOOK1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(FACEBOOK2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -404,14 +473,8 @@ public class Social extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(70, 70, 70)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(CommentS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(FormS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(PostS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AmigosS, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(CuentaS, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(PagregarCuenta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Pagregaramigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -419,32 +482,21 @@ public class Social extends javax.swing.JFrame {
                 .addComponent(Pagregarpost, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Pagregarcomment, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Pprofile, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(65, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(53, 53, 53)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Pprofile, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Pagregarcomment, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Pagregarpost, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(CuentaS)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(AmigosS)
-                        .addGap(18, 18, 18)
-                        .addComponent(PostS)
-                        .addGap(18, 18, 18)
-                        .addComponent(CommentS)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(FormS))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(Pagregaramigo, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(PagregarCuenta, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(28, Short.MAX_VALUE))
+            .addComponent(PagregarCuenta, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
+            .addComponent(Pagregaramigo, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
+            .addComponent(Pagregarpost, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
+            .addComponent(Pagregarcomment, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
+            .addComponent(Pprofile, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -457,6 +509,8 @@ public class Social extends javax.swing.JFrame {
         Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(false);
         Pprofile.setVisible(false);
+                panel.setVisible(false);
+
     }//GEN-LAST:event_CuentaSActionPerformed
 
     private void AmigosSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AmigosSActionPerformed
@@ -466,6 +520,8 @@ public class Social extends javax.swing.JFrame {
         Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(false);
         Pprofile.setVisible(false);
+                panel.setVisible(false);
+
     }//GEN-LAST:event_AmigosSActionPerformed
 
     private void PostSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PostSActionPerformed
@@ -475,6 +531,8 @@ public class Social extends javax.swing.JFrame {
         Pagregarcomment.setVisible(true);
         Pagregarpost.setVisible(false);
         Pprofile.setVisible(false);
+                panel.setVisible(false);
+
     }//GEN-LAST:event_PostSActionPerformed
 
     private void CommentSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CommentSActionPerformed
@@ -484,6 +542,8 @@ public class Social extends javax.swing.JFrame {
         Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(true);
         Pprofile.setVisible(false);
+                panel.setVisible(false);
+
     }//GEN-LAST:event_CommentSActionPerformed
 
     private void FormSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FormSActionPerformed
@@ -493,6 +553,7 @@ public class Social extends javax.swing.JFrame {
         Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(false);
         Pprofile.setVisible(true);
+        panel.setVisible(false);
     }//GEN-LAST:event_FormSActionPerformed
 
     private void UserfriendnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UserfriendnameActionPerformed
@@ -506,7 +567,7 @@ public class Social extends javax.swing.JFrame {
     private void agregarcuentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_agregarcuentaActionPerformed
         // TODO add your handling code here:
         Username.getText();
-        Password.getText();
+     
         TipoRed.getSelectedIndex();
         
     }//GEN-LAST:event_agregarcuentaActionPerformed
@@ -585,13 +646,14 @@ public class Social extends javax.swing.JFrame {
     private javax.swing.JTextField Comentario;
     private javax.swing.JButton CommentS;
     private javax.swing.JButton CuentaS;
+    private javax.swing.JLabel FACEBOOK;
+    private javax.swing.JLabel FACEBOOK1;
+    private javax.swing.JLabel FACEBOOK2;
     private javax.swing.JButton FormS;
-    private javax.swing.JLabel Lablel2;
     private javax.swing.JPanel PagregarCuenta;
     private javax.swing.JPanel Pagregaramigo;
     private javax.swing.JPanel Pagregarcomment;
     private javax.swing.JPanel Pagregarpost;
-    private javax.swing.JTextField Password;
     private javax.swing.JButton PostS;
     private javax.swing.JTextField Postdata;
     private javax.swing.JPanel Pprofile;
@@ -617,7 +679,9 @@ public class Social extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton mostratprofile;
+    private javax.swing.JPanel panel;
     // End of variables declaration//GEN-END:variables
 }
