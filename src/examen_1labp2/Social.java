@@ -17,9 +17,9 @@ public class Social extends javax.swing.JFrame {
         initComponents();
         
         PagregarCuenta.setVisible(false);
-        Pagregaramigo.setVisible(false);
-        Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(false);
+        Pagregarcomment.setVisible(false);
+        Pagregaramigo.setVisible(false);
         Pprofile.setVisible(false);
     }
 
@@ -32,7 +32,7 @@ public class Social extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Pagregarpost = new javax.swing.JPanel();
+        Pagregaramigo = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         Searchusername = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
@@ -44,7 +44,7 @@ public class Social extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         TipoRed = new javax.swing.JComboBox<>();
         agregarcuenta = new javax.swing.JButton();
-        Pagregaramigo = new javax.swing.JPanel();
+        Pagregarpost = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         Postdata = new javax.swing.JTextField();
         agregarpost = new javax.swing.JButton();
@@ -78,7 +78,7 @@ public class Social extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(500, 339));
 
-        Pagregarpost.setPreferredSize(new java.awt.Dimension(306, 231));
+        Pagregaramigo.setPreferredSize(new java.awt.Dimension(306, 231));
 
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("User Name");
@@ -102,36 +102,36 @@ public class Social extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout PagregarpostLayout = new javax.swing.GroupLayout(Pagregarpost);
-        Pagregarpost.setLayout(PagregarpostLayout);
-        PagregarpostLayout.setHorizontalGroup(
-            PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PagregarpostLayout.createSequentialGroup()
+        javax.swing.GroupLayout PagregaramigoLayout = new javax.swing.GroupLayout(Pagregaramigo);
+        Pagregaramigo.setLayout(PagregaramigoLayout);
+        PagregaramigoLayout.setHorizontalGroup(
+            PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PagregaramigoLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(PagregarpostLayout.createSequentialGroup()
+                .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(PagregaramigoLayout.createSequentialGroup()
                             .addComponent(jLabel3)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(Searchusername, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(PagregarpostLayout.createSequentialGroup()
+                        .addGroup(PagregaramigoLayout.createSequentialGroup()
                             .addComponent(jLabel4)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(Userfriendname, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(PagregarpostLayout.createSequentialGroup()
+                    .addGroup(PagregaramigoLayout.createSequentialGroup()
                         .addGap(71, 71, 71)
                         .addComponent(agregaramigo)))
                 .addContainerGap(152, Short.MAX_VALUE))
         );
-        PagregarpostLayout.setVerticalGroup(
-            PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PagregarpostLayout.createSequentialGroup()
+        PagregaramigoLayout.setVerticalGroup(
+            PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PagregaramigoLayout.createSequentialGroup()
                 .addGap(45, 45, 45)
-                .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(Searchusername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(Userfriendname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -190,7 +190,7 @@ public class Social extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Pagregaramigo.setPreferredSize(new java.awt.Dimension(306, 231));
+        Pagregarpost.setPreferredSize(new java.awt.Dimension(306, 231));
 
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("User Name");
@@ -207,34 +207,34 @@ public class Social extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Post:");
 
-        javax.swing.GroupLayout PagregaramigoLayout = new javax.swing.GroupLayout(Pagregaramigo);
-        Pagregaramigo.setLayout(PagregaramigoLayout);
-        PagregaramigoLayout.setHorizontalGroup(
-            PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PagregaramigoLayout.createSequentialGroup()
+        javax.swing.GroupLayout PagregarpostLayout = new javax.swing.GroupLayout(Pagregarpost);
+        Pagregarpost.setLayout(PagregarpostLayout);
+        PagregarpostLayout.setHorizontalGroup(
+            PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PagregarpostLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PagregaramigoLayout.createSequentialGroup()
-                        .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PagregarpostLayout.createSequentialGroup()
+                        .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(Postdata, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PagregaramigoLayout.createSequentialGroup()
+                            .addGroup(PagregarpostLayout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(agregarpost)))
                         .addGap(16, 16, 16))
-                    .addGroup(PagregaramigoLayout.createSequentialGroup()
-                        .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PagregaramigoLayout.createSequentialGroup()
+                    .addGroup(PagregarpostLayout.createSequentialGroup()
+                        .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PagregarpostLayout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Searchusernamecoment, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap(155, Short.MAX_VALUE))))
         );
-        PagregaramigoLayout.setVerticalGroup(
-            PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PagregaramigoLayout.createSequentialGroup()
+        PagregarpostLayout.setVerticalGroup(
+            PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PagregarpostLayout.createSequentialGroup()
                 .addGap(45, 45, 45)
-                .addGroup(PagregaramigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(PagregarpostLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(Searchusernamecoment, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -477,9 +477,9 @@ public class Social extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(PagregarCuenta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Pagregaramigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Pagregarpost, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Pagregaramigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Pagregarcomment, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -491,8 +491,8 @@ public class Social extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(PagregarCuenta, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
-            .addComponent(Pagregaramigo, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
             .addComponent(Pagregarpost, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
+            .addComponent(Pagregaramigo, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
             .addComponent(Pagregarcomment, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
             .addComponent(Pprofile, javax.swing.GroupLayout.DEFAULT_SIZE, 339, Short.MAX_VALUE)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -505,9 +505,9 @@ public class Social extends javax.swing.JFrame {
     private void CuentaSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CuentaSActionPerformed
         // TODO add your handling code here:
         PagregarCuenta.setVisible(true);
-        Pagregaramigo.setVisible(false);
-        Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(false);
+        Pagregarcomment.setVisible(false);
+        Pagregaramigo.setVisible(false);
         Pprofile.setVisible(false);
                 panel.setVisible(false);
 
@@ -516,9 +516,9 @@ public class Social extends javax.swing.JFrame {
     private void AmigosSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AmigosSActionPerformed
         // TODO add your handling code here:
         PagregarCuenta.setVisible(false);
-        Pagregaramigo.setVisible(true);
-        Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(false);
+        Pagregarcomment.setVisible(false);
+        Pagregaramigo.setVisible(true);
         Pprofile.setVisible(false);
                 panel.setVisible(false);
 
@@ -527,9 +527,9 @@ public class Social extends javax.swing.JFrame {
     private void PostSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PostSActionPerformed
         // TODO add your handling code here:
         PagregarCuenta.setVisible(false);
+        Pagregarpost.setVisible(true);
+        Pagregarcomment.setVisible(false);
         Pagregaramigo.setVisible(false);
-        Pagregarcomment.setVisible(true);
-        Pagregarpost.setVisible(false);
         Pprofile.setVisible(false);
                 panel.setVisible(false);
 
@@ -538,9 +538,9 @@ public class Social extends javax.swing.JFrame {
     private void CommentSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CommentSActionPerformed
         // TODO add your handling code here:
         PagregarCuenta.setVisible(false);
+        Pagregarpost.setVisible(false);
+        Pagregarcomment.setVisible(true);
         Pagregaramigo.setVisible(false);
-        Pagregarcomment.setVisible(false);
-        Pagregarpost.setVisible(true);
         Pprofile.setVisible(false);
                 panel.setVisible(false);
 
@@ -549,9 +549,9 @@ public class Social extends javax.swing.JFrame {
     private void FormSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FormSActionPerformed
         // TODO add your handling code here:
         PagregarCuenta.setVisible(false);
-        Pagregaramigo.setVisible(false);
-        Pagregarcomment.setVisible(false);
         Pagregarpost.setVisible(false);
+        Pagregarcomment.setVisible(false);
+        Pagregaramigo.setVisible(false);
         Pprofile.setVisible(true);
         panel.setVisible(false);
     }//GEN-LAST:event_FormSActionPerformed
@@ -568,7 +568,7 @@ public class Social extends javax.swing.JFrame {
         // TODO add your handling code here:
         Username.getText();
      
-        TipoRed.getSelectedIndex();
+        TipoRed.getSelectedItem().toString();
         
     }//GEN-LAST:event_agregarcuentaActionPerformed
 

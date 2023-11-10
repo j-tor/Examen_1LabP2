@@ -34,9 +34,9 @@
               <EmptySpace min="-2" max="-2" attributes="0"/>
               <Component id="PagregarCuenta" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="Pagregaramigo" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
               <Component id="Pagregarpost" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Pagregaramigo" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="Pagregarcomment" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
@@ -50,8 +50,8 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="PagregarCuenta" pref="339" max="32767" attributes="0"/>
-          <Component id="Pagregaramigo" alignment="0" pref="339" max="32767" attributes="0"/>
           <Component id="Pagregarpost" alignment="0" pref="339" max="32767" attributes="0"/>
+          <Component id="Pagregaramigo" alignment="0" pref="339" max="32767" attributes="0"/>
           <Component id="Pagregarcomment" alignment="0" pref="339" max="32767" attributes="0"/>
           <Component id="Pprofile" alignment="0" pref="339" max="32767" attributes="0"/>
           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
@@ -60,7 +60,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="Pagregarpost">
+    <Container class="javax.swing.JPanel" name="Pagregaramigo">
       <Properties>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[306, 231]"/>
@@ -245,7 +245,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JPanel" name="Pagregaramigo">
+    <Container class="javax.swing.JPanel" name="Pagregarpost">
       <Properties>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[306, 231]"/>
