@@ -8,15 +8,16 @@ package examen_1labp2;
  *
  * @author aleja
  */
+
 public class Twitter extends SocialClass {
-    private StringBuilder lista = new StringBuilder();
+    public static  StringBuilder lista = new StringBuilder();
     public Twitter(String username) {
         super(username);
     }
 
     @Override
     public void timeline() {
-        lista.append("Timeline:");
+    
 
         for (int i = 0; i < posts.size(); i++) {
             lista.append("POST ").append(i+1);

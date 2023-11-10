@@ -11,12 +11,14 @@ import java.util.ArrayList;
 
 
 public class Facebook extends SocialClass implements Commentable{
-private StringBuilder lista = new StringBuilder();
+public static  StringBuilder lista = new StringBuilder();
 
     private ArrayList<Comment> comentarios;
+    
     public Facebook(String Username) {
         super(Username);
         comentarios = new ArrayList<>();
+        
     }
 
     @Override
@@ -26,21 +28,19 @@ private StringBuilder lista = new StringBuilder();
             comentarios.add(comment);
             return true;
         }
-
         return false;
     }
 
     @Override
     public void timeline() {
       for (int i = 0; i < posts.size(); i++) {
-            lista.append("POST ").append(i).append(1).append("\n").append(posts.get(i)).append("\n").append("Comentarios:");
+            lista.append("POST ").append(i).append("\n").append(posts.get(i)).append("\n").append("Comentarios:");
             for (Comment comment : comentarios) {
                 if (comment.getPostId() == i) {
-                    lista.append(comment);
+                    lista.append(comment.print());
                 }
             }
             lista.append("\n");
-        }
+      }
     }
-    
 }
